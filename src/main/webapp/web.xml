@@ -89,6 +89,15 @@
     </servlet-mapping>
 
     <servlet>
+        <servlet-name>deleteDriverFromCar</servlet-name>
+        <servlet-class>taxi.controller.car.DeleteDriverFromCarController</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>deleteDriverFromCar</servlet-name>
+        <url-pattern>/cars/drivers/delete</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
         <servlet-name>deleteCar</servlet-name>
         <servlet-class>taxi.controller.car.DeleteCarController</servlet-class>
     </servlet>
