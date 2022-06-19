@@ -10,6 +10,9 @@ It simulates work of simple taxi service and has next functions:
 - Create new Manufacturer
 - Add Driver to Car
 - Delete Driver from Car
+- Delete Driver
+- Delete Car
+- Delete Manufacturer
 - Display My Current Cars
 # Run application in your browser
 Follow the [link](https://taxi-service-vh.herokuapp.com/)
